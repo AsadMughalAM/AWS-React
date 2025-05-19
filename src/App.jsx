@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './pages/home/home';
+import Home from './pages/home/Home';
 import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import Contact from './pages/contact/Contact';
