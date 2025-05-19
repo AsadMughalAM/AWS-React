@@ -1,0 +1,93 @@
+/* Navbar.css */
+
+.nav {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  gap: 8px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  width: 200px;
+  font-size: 14px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #333;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-box {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+  gap: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-box span {
+  background-color: crimson;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+  background-color: #f7f7f7;
+}
+
+.bottomNav li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.bottomNav li:hover {
+  color: #007bff;
+}
+a{
+  text-decoration: none;
+}

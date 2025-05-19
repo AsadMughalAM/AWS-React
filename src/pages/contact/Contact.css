@@ -1,0 +1,78 @@
+/* Contact.css */
+.contact {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  min-height: 100vh;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border-color: #2a7f62;
+  box-shadow: 0 0 0 2px rgba(42, 127, 98, 0.2);
+}
+
+.contact textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact button {
+  padding: 0.8rem;
+  background-color: #2a7f62;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #1f6b4f;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact {
+    padding: 0 0.5rem;
+  }
+  
+  .contact form {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact form {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 0.7rem;
+  }
+}

@@ -1,0 +1,11 @@
+.shop{
+    width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  gap: 8px;
+}

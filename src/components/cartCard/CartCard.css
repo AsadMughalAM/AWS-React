@@ -1,0 +1,74 @@
+.Cartcard {
+    height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Cartcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.left-cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.left-cart img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info span:first-child {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.info span:last-child {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2a7f62; /* Green color for price */
+}
+
+.right-cart button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.right-cart button:hover {
+  background-color: #cc0000;
+}
+
+.right-cart svg {
+  font-size: 1.2rem;
+}
